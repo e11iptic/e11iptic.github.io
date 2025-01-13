@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ececec;
+    font:
+        1.5rem Arial,
+        sans-serif;
+    text-align: center;
+}
+
+.logo img {
+    width: min(35rem, 90%);
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icon {
+    color: #dead00;
+    font-size: 2rem;
+    transition: opacity 0.2s ease;
+    opacity: 0.8;
+}
+
+.social-icon:hover {
+    opacity: 1;
+}
