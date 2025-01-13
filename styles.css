@@ -31,9 +31,4 @@ body {
     color: #dead00;
     font-size: 2rem;
     transition: opacity 0.2s ease;
-    opacity: 0.8;
-}
-
-.social-icon:hover {
-    opacity: 1;
 }
