@@ -21,7 +21,7 @@ body {
 
 .logo img {
     width: min(35rem, 90%);
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
 }
 
 .social-links {
