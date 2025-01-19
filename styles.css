@@ -12,14 +12,16 @@ body {
     justify-content: center;
     align-items: center;
     background: #ececec;
-    font:
-        1.5rem Arial,
-        sans-serif;
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
     text-align: center;
 }
 
 .logo img {
     width: min(35rem, 90%);
+    margin-bottom: 2rem;
 }
 
 .social-links {
@@ -28,7 +30,6 @@ body {
 }
 
 .social-icon {
-    color: #ffcb41;
+    color: #4b227a;
     font-size: 2rem;
-    transition: opacity 0.2s ease;
 }
