@@ -17,6 +17,10 @@ body {
     text-align: center;
 }
 
+main {
+    padding: 3rem;
+}
+
 .logo img {
     width: min(35rem, 90%);
     margin-bottom: 5rem;
@@ -30,4 +34,22 @@ body {
 .social-icon {
     color: #4c061d;
     font-size: 2rem;
+}
+
+nav {
+    width: 100%;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    font-weight: 300;
+    padding: 0.5rem 0.5rem;
 }
