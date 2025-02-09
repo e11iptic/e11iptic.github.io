@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #ececec;
+    font-family: "Rubik", serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
+
+/*
+    Header.
+*/
+header {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+
+    nav {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 1rem;
+
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+.nav-is-active {
+    font-weight: bold;
+}
+
+/*
+    Main.
+*/
+main {
+    flex: 1; // make `Main` grow to take space that is not taken by neither `Header` nor `Footer`.
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    img {
+        width: min(30rem, 90%);
+    }
+}
+
+.brand {
+    font-weight: bold;
+}
+
+/*
+    Footer.
+*/
+footer {
+    padding: 2rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social-icon {
+    color: #4c061d;
+    font-size: 2rem;
+}

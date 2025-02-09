@@ -1,0 +1,7 @@
+title: e11iptic
+description: e11iptic is a community for Web3 contributors, based in Algeria
+baseurl: "" # The subpath of site, e.g. /blog.
+url: "https://e11iptic.github.io"
+theme: minima
+plugins:
+  - jekyll-feed # Probably not needed.
