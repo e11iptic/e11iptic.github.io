@@ -1,0 +1,14 @@
+.blog {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: min(800px, 90%);
+    text-align: right;
+
+    h2 {
+        a {
+            color: #4c061d;
+            text-decoration: none;
+        }
+    }
+}
