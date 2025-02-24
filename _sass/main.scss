@@ -54,7 +54,7 @@ main {
 
 .logo {
     img {
-        width: min(30rem, 90%);
+        width: min(20rem, 90%);
     }
 }
 
@@ -78,4 +78,66 @@ footer {
 .social-icon {
     color: #4c061d;
     font-size: 2rem;
+}
+
+/*
+    Post Layout Styles
+*/
+.post {
+    width: min(40rem, 90%);
+    text-align: left;
+
+    // Header section
+    .post-header {
+        .post-title {
+            color: #4c061d;
+            font-weight: 700;
+        }
+    }
+
+    // Main content
+    .post-content {
+        line-height: 1.6;
+        margin-bottom: 3rem;
+
+        p {
+            margin-bottom: 1.5rem;
+        }
+
+        h2 {
+            margin: 2rem 0 1rem;
+            font-weight: 600;
+        }
+
+        // Style for code blocks
+        pre {
+            background: #f5f5f5;
+        }
+    }
+
+    // Navigation between posts
+    .post-navigation {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+        padding-top: 2rem;
+        border-top: 1px solid #ddd;
+
+        a {
+            text-decoration: none;
+            color: #4c061d;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.9rem;
+
+            &.prev {
+                margin-right: auto;
+            }
+
+            &.next {
+                margin-left: auto;
+            }
+        }
+    }
 }

@@ -1,4 +1,6 @@
-# - name: الرئيسية
-#   link: /
-# - name: المستشارون
+- name: Home | الرئيسية
+  link: /
+- name: Blog | المدونة
+  link: /blog.html
+# - name: Advisors | المستشارون
 #   link: /advisors.html
