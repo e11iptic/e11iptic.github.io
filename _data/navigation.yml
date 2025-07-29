@@ -1,6 +1,6 @@
 - name: Home
   link: /
-- name: Blog
-  link: /blog.html
+# - name: Blog
+#   link: /blog.html
 # - name: Advisors | المستشارون
 #   link: /advisors.html
