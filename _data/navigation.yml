@@ -1,6 +1,6 @@
-- name: Home | الرئيسية
+- name: Home
   link: /
-- name: Blog | المدونة
+- name: Blog
   link: /blog.html
 # - name: Advisors | المستشارون
 #   link: /advisors.html
