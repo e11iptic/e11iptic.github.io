@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --content-width: min(800px, 90%);
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -58,7 +62,7 @@ main {
     }
 
     .description {
-        width: min(30rem, 70%);
+        width: var(--content-width);
     }
 }
 
@@ -94,7 +98,7 @@ footer {
     Post Layout Styles
 */
 .post {
-    width: min(40rem, 90%);
+    width: var(--content-width);
     text-align: left;
 
     // Header section
