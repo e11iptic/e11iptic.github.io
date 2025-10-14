@@ -29,7 +29,7 @@ header {
     justify-content: center;
 
     nav {
-        font-size: 1rem;
+        font-size: 1.5rem;
         text-decoration: none;
         display: flex;
         gap: 1rem;
@@ -48,6 +48,7 @@ header {
     Main.
 */
 main {
+    font-size: 1.5rem;
     flex: 1; // make `Main` grow to take space that is not taken by neither `Header` nor `Footer`.
     gap: 1rem;
     display: flex;
@@ -85,7 +86,7 @@ footer {
 
 .social-icon {
     color: #4c061d;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-decoration: none;
 }
 
