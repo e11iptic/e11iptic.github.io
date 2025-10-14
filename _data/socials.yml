@@ -1,11 +1,11 @@
-- name: twitter
+- name: x
   link: https://twitter.com/e11iptic
-  icon: fab fa-x-twitter
+  text: X
 
 - name: github
   link: https://github.com/e11iptic
-  icon: fab fa-github
+  text: GitHub
 
 - name: discord
   link: https://discord.gg/hHYauw77UZ
-  icon: fab fa-discord
+  text: Discord

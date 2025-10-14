@@ -25,19 +25,19 @@ header {
     justify-content: center;
 
     nav {
+        font-size: 1rem;
+        text-decoration: none;
         display: flex;
-        flex-direction: row-reverse;
         gap: 1rem;
-
         a {
-            color: black;
+            color: #4c061d;
             text-decoration: none;
         }
+        a:hover {
+            background-color: #4c061d;
+            color: white;
+        }
     }
-}
-
-.nav-is-active {
-    font-weight: bold;
 }
 
 /*
@@ -45,7 +45,7 @@ header {
 */
 main {
     flex: 1; // make `Main` grow to take space that is not taken by neither `Header` nor `Footer`.
-    gap: 2rem;
+    gap: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,7 +53,7 @@ main {
 
     .logo {
         img {
-            width: min(30rem, 70%);
+            width: min(20rem, 70%);
         }
     }
 
@@ -63,7 +63,7 @@ main {
 }
 
 .brand {
-    font-weight: 700;
+    font-weight: 500;
 }
 
 /*
@@ -81,7 +81,13 @@ footer {
 
 .social-icon {
     color: #4c061d;
-    font-size: 2rem;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    background-color: #4c061d;
+    color: white;
 }
 
 /*
@@ -93,29 +99,22 @@ footer {
 
     // Header section
     .post-header {
+        margin: 0;
+        padding: 0;
         .post-title {
-            color: #4c061d;
-            font-weight: 700;
+            margin: 0;
+            font-weight: 500;
         }
     }
 
     // Main content
     .post-content {
-        line-height: 1.6;
-        margin-bottom: 3rem;
-
-        p {
-            margin-bottom: 1.5rem;
-        }
-
-        h2 {
-            margin: 2rem 0 1rem;
-            font-weight: 700;
-        }
+        line-height: 1;
+        margin-bottom: 2rem;
 
         // Style for code blocks
         pre {
-            background: #f5f5f5;
+            background: #ececec;
         }
     }
 

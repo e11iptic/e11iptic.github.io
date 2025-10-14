@@ -1,14 +1,20 @@
+// To not center blog and posts vertically.
+main:has(.blog),
+main:has(.post) {
+    justify-content: flex-start;
+}
+
 .blog {
     list-style: none;
     padding: 0;
     margin: 0;
     width: min(800px, 90%);
-    text-align: right;
+    text-align: left;
 
-    h2 {
-        a {
-            color: #4c061d;
-            text-decoration: none;
-        }
+    a {
+        color: black;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 2rem;
     }
 }
