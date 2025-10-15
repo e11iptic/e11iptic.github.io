@@ -36,8 +36,13 @@ header {
         a {
             color: #4c061d;
             text-decoration: none;
+
+            &:hover {
+                background-color: #4c061d;
+                color: white;
+            }
         }
-        a:hover {
+        .nav-is-active {
             background-color: #4c061d;
             color: white;
         }
@@ -135,7 +140,6 @@ footer {
         justify-content: space-between;
         margin-top: 2rem;
         padding-top: 2rem;
-        border-top: 1px solid #ddd;
 
         a {
             text-decoration: none;
