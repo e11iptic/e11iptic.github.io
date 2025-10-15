@@ -6,7 +6,8 @@ title: e11iptic
 <ul class="blog">
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <p class="date"><small>{{ post.date | date: "%B %d, %Y" }}</small></p>
+      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
       {{ post.excerpt }}
     </li>
   {% endfor %}

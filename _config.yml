@@ -4,4 +4,4 @@ baseurl: "" # The subpath of site, e.g. /blog.
 url: "https://e11iptic.github.io"
 theme: minima
 plugins:
-  - jekyll-feed # Probably not needed.
+  - jekyll-feed

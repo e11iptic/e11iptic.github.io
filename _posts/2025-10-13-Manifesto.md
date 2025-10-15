@@ -7,3 +7,5 @@ date: 2025-10-13
 ---
 
 This is e11iptic Manifesto.
+
+e11iptic is a community for privacy & security practitioners.
