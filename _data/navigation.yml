@@ -1,4 +1,4 @@
-- name: "[Home]"
+- name: "Home"
   link: /
-- name: "[Blog]"
+- name: "Blog"
   link: /blog.html
