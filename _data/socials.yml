@@ -1,11 +1,11 @@
 - name: x
   link: https://twitter.com/e11iptic
-  text: X
+  text: "[X]"
 
 - name: github
   link: https://github.com/e11iptic
-  text: GitHub
+  text: "[GitHub]"
 
 - name: discord
   link: https://discord.gg/hyA6sQKE4W
-  text: Discord
+  text: "[Discord]"
