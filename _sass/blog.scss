@@ -11,6 +11,11 @@ main:has(.post) {
     width: var(--content-width);
     text-align: left;
 
+    .section {
+        padding: 1rem;
+        /* margin-bottom: 1rem; */
+    }
+
     h1 {
         padding: 0;
         margin: 0;
@@ -19,7 +24,7 @@ main:has(.post) {
     a {
         color: black;
         text-decoration: none;
-        font-weight: 400;
+        font-weight: 600;
         font-size: 2rem;
     }
 

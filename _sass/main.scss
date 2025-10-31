@@ -3,7 +3,7 @@
 }
 
 :root {
-    --content-width: min(800px, 90%);
+    --content-width: min(700px, 90%);
 }
 
 body {
@@ -29,23 +29,27 @@ header {
     justify-content: center;
 
     nav {
-        font-size: 1.2rem;
-        text-decoration: none;
+        background: #f5f5f5;
+        border: 1px solid #f5f5f5;
+        padding: 0rem 1rem;
         display: flex;
         gap: 1.2rem;
-        a {
-            color: #4c061d;
-            text-decoration: none;
+        border-radius: 10px;
+    }
 
-            &:hover {
-                background-color: #4c061d;
-                color: white;
-            }
+    nav a {
+        color: #4c061d;
+        text-decoration: none;
+        font-weight: 500;
+        padding: 0.4rem 0.6rem;
+        border-radius: 10px;
+
+        &:hover {
+            font-weight: 600;
         }
-        .nav-is-active {
-            background-color: #4c061d;
-            color: white;
-        }
+    }
+    .nav-is-active {
+        font-weight: 600;
     }
 }
 
@@ -73,31 +77,40 @@ main {
 }
 
 .brand {
-    font-weight: 500;
+    font-weight: 700;
 }
 
 /*
     Footer.
 */
 footer {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
     padding: 2rem;
 }
 
 .social-links {
+    gap: 1rem;
+    background: #f5f5f5;
+    border: 1px solid #f5f5f5;
+    padding: 0rem 1rem;
     display: flex;
-    justify-content: center;
     gap: 1.2rem;
+    border-radius: 10px;
 }
 
 .social-icon {
     color: #4c061d;
-    font-size: 1.2rem;
     text-decoration: none;
+    font-weight: 500;
+    padding: 0.4rem 0.6rem;
+    border-radius: 10px;
 }
 
 .social-icon:hover {
-    background-color: #4c061d;
-    color: white;
+    font-weight: 600;
 }
 
 /*
@@ -116,7 +129,7 @@ footer {
             margin: 0;
             color: black;
             text-decoration: none;
-            font-weight: 400;
+            font-weight: 600;
             font-size: 2rem;
             margin: 0;
         }
@@ -124,7 +137,7 @@ footer {
 
     // Main content
     .post-content {
-        line-height: 1;
+        line-height: 1.6;
         margin-bottom: 2rem;
 
         // Style for code blocks
