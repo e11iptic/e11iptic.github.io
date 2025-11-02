@@ -1,6 +1,6 @@
 title: e11iptic
-description: e11iptic is a community for privacy & security practitioners
-baseurl: "" # The subpath of site, e.g. /blog.
+description: e11iptic is a collective of privacy & security practitioners
+baseurl: ""
 url: "https://e11iptic.github.io"
 theme: minima
 plugins:
