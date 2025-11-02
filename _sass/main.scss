@@ -135,8 +135,8 @@ footer {
         }
     }
 
-    // Main content
     .post-content {
+        width: var(--content-width);
         line-height: 1.2;
         margin-bottom: 2rem;
 
