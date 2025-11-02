@@ -1,5 +1,6 @@
 title: e11iptic
-description: e11iptic is a non-profit for privacy & security practitioners
+description: e11iptic is a community for privacy & security practitioners.
+
 baseurl: ""
 url: "https://e11iptic.github.io"
 theme: minima
