@@ -12,4 +12,4 @@ We began as a Discord server focused on [competitive audits](https://support.cyf
 
 Today, we bring experts and enthusiasts together, to learn, build and break in security research and privacy enhancing technologies. We love playing positive sum games. When the game is not, we play to win. We hold ourselves, and each other, to a higher standard.
 
-We run hacker houses as well as online events.
+We welcome all who share this mindset. We run hacker houses as well as online events.
