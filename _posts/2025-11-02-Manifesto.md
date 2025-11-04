@@ -8,7 +8,7 @@ date: 2025-11-02
 
 e11iptic is a community for privacy & security practitioners.
 
-We started as a Discord server focused on [competitive audits](https://support.cyfrin.io/en/articles/10059182-what-is-a-competitive-audit), this was a collaborative effort to get into security research.
+We started as a Discord server focused on [competitive audits](https://support.cyfrin.io/en/articles/10059182-what-is-a-competitive-audit), this was a collaborative effort to get into security research of smart contracts.
 
 Today, we bring experts and enthusiasts into the same room, to learn, break and build in security research and privacy enhancing technologies. We love playing positive sum games. When the game is not, we play to win. We hold ourselves, and each other, to a higher standard.
 
