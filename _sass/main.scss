@@ -120,6 +120,10 @@ footer {
     width: var(--content-width);
     text-align: left;
 
+    img {
+        width: min(20rem, 70%);
+    }
+
     // Header section
     .post-header {
         margin: 0;
