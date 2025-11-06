@@ -8,8 +8,8 @@ date: 2025-11-02
 
 e11iptic is a community for privacy & security practitioners.
 
-We started as a stealth community, focused on [competitive audits](https://support.cyfrin.io/en/articles/10059182-what-is-a-competitive-audit). The goal was to break into smart contract security research, and we did.
+We started as a stealth community,with the to break into smart contract security research.
 
 Today, we bring experts and enthusiasts together, to learn, build and break in security research and privacy enhancing technologies. We love playing positive sum games. When the game is not, we play to win. We hold ourselves, and each other, to a higher standard.
 
-We welcome all who share this mindset. We run hacker houses as well as online events.
+We welcome all who share this mindset. We host hacker houses as well as online events.
