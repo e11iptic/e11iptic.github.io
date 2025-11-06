@@ -8,7 +8,7 @@ date: 2025-11-02
 
 e11iptic is a community for privacy & security practitioners.
 
-We started as a stealth community early 2023, the goal was to break into smart contract security research. Since then, our members won +10 [competitive audits](https://docs.codehawks.com/hawks-auditors/what-is-an-auditing-competition).
+We started as a stealth community early 2023, the goal was to break into smart contract security research. Since then, our researchers have placed first in over 10 [competitive audits](https://docs.codehawks.com/hawks-auditors/what-is-an-auditing-competition).
 
 Today, we bring experts and enthusiasts together, to learn, build and break in security research and privacy enhancing technologies. We love playing positive sum games. When the game is not, we play to win. We hold ourselves, and each other, to a higher standard.
 
