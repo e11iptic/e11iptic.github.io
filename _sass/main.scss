@@ -67,7 +67,7 @@ main {
 
     .logo {
         img {
-            width: min(20rem, 70%);
+            width: min(20rem, 65%);
         }
     }
 
@@ -121,7 +121,7 @@ footer {
     text-align: left;
 
     img {
-        width: min(20rem, 70%);
+        width: min(20rem, 65%);
     }
 
     // Header section
@@ -143,6 +143,7 @@ footer {
         width: var(--content-width);
         line-height: 1.5;
         margin-bottom: 2rem;
+        text-align: justify;
 
         font-family: inter;
         font-size: 1rem;
@@ -154,7 +155,7 @@ footer {
         }
 
         a {
-            /* text-decoration: none; */
+            text-decoration: none;
             color: #4c061d;
         }
     }
