@@ -6,7 +6,7 @@ date: 2025-11-02
 
 ![manifesto](/assets/images/Gmck-uhWUAAvy4v.jpeg)
 
-e11iptic is a community for privacy & security practitioners.
+e11iptic is a community of contributors in security research and verifiable compute.
 
 We started as a stealth study group early 2023, the goal was to break into smart contract security research. Since then, our researchers placed first in over 10 [competitive audits](https://docs.codehawks.com/hawks-auditors/what-is-an-auditing-competition).
 
