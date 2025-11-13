@@ -1,0 +1,90 @@
+/*
+    Partners Layout Styles
+*/
+.partners-page {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+
+    .partners-header {
+        text-align: center;
+        margin-bottom: 0;
+        padding: 2rem;
+
+        .partners-title {
+            color: #4c061d;
+            font-weight: 700;
+            font-size: 2.5rem;
+            margin: 0;
+        }
+    }
+
+    .partners-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+        gap: 0;
+        margin: 0;
+        justify-content: center;
+
+        @media (max-width: 768px) {
+            grid-template-columns: repeat(auto-fit, minmax(150px, 150px));
+        }
+    }
+
+    .partner-box {
+        background: #f5f5f5;
+        border: 1px solid #e0e0e0;
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        aspect-ratio: 1;
+        width: 200px;
+        height: 200px;
+        box-sizing: border-box;
+        overflow: hidden;
+
+        @media (max-width: 768px) {
+            width: 150px;
+            height: 150px;
+            padding: 1rem;
+        }
+
+        .partner-logo {
+            width: 100%;
+            height: 140px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 0.5rem;
+            flex-shrink: 0;
+
+            @media (max-width: 768px) {
+                height: 100px;
+            }
+
+            img {
+                max-width: 100%;
+                max-height: 100%;
+                object-fit: contain;
+            }
+        }
+
+        .partner-info {
+            width: 100%;
+            overflow: hidden;
+
+            .partner-name {
+                color: #4c061d;
+                font-size: 0.8rem;
+                font-weight: 700;
+                margin: 0;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+}
