@@ -140,6 +140,7 @@ footer {
         margin: 0;
         padding: 0;
         .post-title {
+            text-align: center;
             padding: 0;
             margin: 0;
             color: black;
@@ -151,6 +152,24 @@ footer {
     }
 
     .post-content {
+        a {
+            text-decoration: none;
+            color: #4c061d;
+
+            &::after {
+                content: "";
+                display: inline-block;
+                width: 0.8em;
+                height: 0.8em;
+                margin-left: 0.2em;
+                margin-bottom: 0.2em;
+                background-image: url("/assets/external-link.png");
+                background-size: contain;
+                background-repeat: no-repeat;
+                vertical-align: middle;
+            }
+        }
+
         /* width: var(--content-width); */
         line-height: 1.5;
         margin-bottom: 2rem;
