@@ -180,6 +180,11 @@ footer {
         font-size: 1rem;
         font-weight: 400;
 
+        strong,
+        b {
+            font-weight: 500;
+        }
+
         h2 {
             font-family: "Overused Grotesk", sans-serif;
             font-weight: 500;
