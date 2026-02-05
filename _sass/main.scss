@@ -34,22 +34,23 @@ header {
         padding: 0rem 0.5rem;
         display: flex;
         gap: 1rem;
-        border-radius: 10px;
+        border-radius: 100px;
     }
 
     nav a {
-        color: #4c061d;
+        color: #7a7a7a;
         text-decoration: none;
         font-weight: 500;
         padding: 0.4rem 0.6rem;
         border-radius: 10px;
+        transition: color 0.15s ease;
 
         &:hover {
-            font-weight: 700;
+            color: #4c061d;
         }
     }
     .nav-is-active {
-        font-weight: 700;
+        color: #4c061d;
     }
 }
 
@@ -109,19 +110,20 @@ footer {
     padding: 0rem 0.5rem;
     display: flex;
     gap: 1rem;
-    border-radius: 10px;
+    border-radius: 100px;
 }
 
 .social-icon {
-    color: #4c061d;
+    color: #7a7a7a;
     text-decoration: none;
     font-weight: 500;
     padding: 0.4rem 0.6rem;
     border-radius: 10px;
+    transition: color 0.15s ease;
 }
 
 .social-icon:hover {
-    font-weight: 700;
+    color: #4c061d;
 }
 
 /*
