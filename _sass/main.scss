@@ -77,6 +77,63 @@ main {
     .description {
         width: var(--content-width);
     }
+
+    .trusted-by {
+        width: var(--content-width);
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        align-items: center;
+    }
+
+    .trusted-by-title {
+        font-size: 0.9rem;
+        font-weight: 500;
+        color: #7a7a7a;
+        letter-spacing: 0.02em;
+    }
+
+    .trusted-by-logos {
+        display: flex;
+        gap: 1.25rem;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .trusted-by-logo {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem 0.75rem;
+        border-radius: 100px;
+        text-decoration: none;
+    }
+
+    .trusted-by-logo:hover .logo-fentech,
+    .trusted-by-logo:focus-visible .logo-fentech {
+        background-color: #4c061d;
+    }
+
+    .logo-fentech {
+        display: block;
+        flex: 0 0 auto;
+        width: 90px;
+        height: 28px;
+        background-color: #7a7a7a;
+        transition: background-color 0.15s ease;
+        mask-image: url("/assets/logos/fentech.svg");
+        mask-mode: alpha;
+        mask-repeat: no-repeat;
+        mask-position: center;
+        mask-size: contain;
+        -webkit-mask-image: url("/assets/logos/fentech.svg");
+        -webkit-mask-mode: alpha;
+        -webkit-mask-repeat: no-repeat;
+        -webkit-mask-position: center;
+        -webkit-mask-size: contain;
+    }
 }
 
 /* @keyframes fadeIn {
@@ -143,7 +200,7 @@ footer {
         padding: 0;
         .post-title {
             text-align: center;
-            padding: 0;
+            padding: 20px 0;
             margin: 0;
             color: black;
             text-decoration: none;
