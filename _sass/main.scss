@@ -254,10 +254,19 @@ footer {
     }
 
     .post-content img {
-        width: 100%;
+        max-width: 100%;
         height: auto;
         display: block;
         margin: 0 auto;
+        object-fit: contain;
+        
+        /* Let images maintain their natural aspect ratio */
+        width: auto;
+        
+        /* Only force full width for very wide images */
+        &[width]:not([height]) {
+            max-width: 100%;
+        }
     }
 
     // Navigation between posts
