@@ -1,0 +1,38 @@
+---
+layout: post
+title: "Q1 2026 Report"
+date: 2026-03-31
+---
+
+Q1 2026 focused on creating tighter feedback loops between researchers through collaborative study sessions, technical discussions, and in-person events. This quarter also marked an important milestone for the community with J3x joining OpenZeppelin as a security researcher!
+
+## Table of Contents
+
+- [J3x joined OpenZeppelin](#j3x-joined-openzeppelin)
+- [study-together](#study-together)
+- [Algiers Meetup](#algiers-meetup)
+
+
+
+## J3x joined OpenZeppelin
+
+[J3x](https://github.com/amj3x) joined OpenZeppelin as a security researcher, contributing to the security of the Ethereum ecosystem.
+
+## study-together
+
+We introduced study-together sessions, a new layer of collaboration between security researchers. We had two sessions in January:
+- Study [yETH exploit](https://github.com/banteg/yeth-exploit/blob/main/report.pdf) , featuring [no_secrets](https://x.com/no___secrets___) from [Asymmetric Research](https://www.asymmetric.re/).  
+- Study [Hotstuff contest](https://audits.sherlock.xyz/contests/1233) right after the contest ended, featuring [Al-Qa'qa'](https://x.com/Al_Qa_qa), from [Cyfrin](https://www.cyfrin.io/). Here's the [recording](https://www.youtube.com/watch?v=VBP3n7nxYhc).
+
+## Algiers Meetup
+
+
+We organized Algiers Meetup, with 30+ attendees, 2 sessions and great energy. The theme was about applied mathematics in subjects of interest for the community.
+
+IRL, we had a whiteboard session presented by [Rezazi Mohamed Abdessamed](https://www.linkedin.com/in/rezazi-mohamed-abdessamed/) from [Nethermind](https://www.nethermind.io/). It was an introduction to zero knowledge proofs.
+
+![algiers meetup](/assets/images/algiers-meetup.jpeg)
+
+Online, we had [Youssef El Housni](https://www.linkedin.com/in/youssef-el-housni-412427108/) from [Consensys](https://consensys.io/). It was about his career development from Math Olympiad in high school, to their [research](https://yelhousni.github.io/#publications) in applied cryptography securing millions of dollars on the blockchain. Here's the [recording](https://www.youtube.com/watch?v=bhoqHfUXK8k)
+ 
+We thank [Fentech](https://fentech.ai/) for sponsoring the meetup!   
