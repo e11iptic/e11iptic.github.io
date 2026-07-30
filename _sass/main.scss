@@ -78,6 +78,18 @@ main {
         width: var(--content-width);
     }
 
+    .event-embed {
+        width: var(--content-width);
+        max-width: 600px;
+        margin-top: 1rem;
+
+        iframe {
+            display: block;
+            width: 100%;
+            max-width: 600px;
+        }
+    }
+
     .trusted-by {
         width: var(--content-width);
         margin-top: 1rem;
