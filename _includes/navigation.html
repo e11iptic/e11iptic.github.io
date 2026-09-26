@@ -1,8 +1,8 @@
 <nav>
   {% for item in site.data.navigation %}
     <a
-      href="{{ item.link }}"
-      {% if page.url == item.link %}
+      href="{{ item.link | relative_url }}"
+      {% if page.url == item.link or item.link == '/blog/' and page.url contains '/blog/' %}
         class="nav-is-active"
       {% endif %}
     >

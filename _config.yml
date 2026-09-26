@@ -3,6 +3,7 @@ description: We're contributors in security research and verifiable compute.
 
 baseurl: ""
 url: "https://e11iptic.github.io"
+permalink: /blog/:title/
 theme: minima
 plugins:
   - jekyll-feed
