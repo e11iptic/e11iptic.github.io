@@ -69,6 +69,7 @@ main {
     .logo {
         img {
             width: min(20rem, 65%);
+            height: auto;
             /* opacity: 0.8;
             animation: fadeIn 1s ease-in forwards; */
         }

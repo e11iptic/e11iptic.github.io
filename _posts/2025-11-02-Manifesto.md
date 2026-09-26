@@ -4,7 +4,7 @@ title: "Manifesto"
 date: 2025-11-02
 ---
 
-![manifesto](/assets/images/Gmck-uhWUAAvy4v.jpeg)
+![manifesto](/assets/images/Gmck-uhWUAAvy4v.jpeg){: width="472" height="704" decoding="async" fetchpriority="high" }
 
 We're contributors in security research and verifiable compute.
 
