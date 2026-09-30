@@ -31,10 +31,23 @@ header {
     nav {
         background: #f5f5f5;
         border: 1px solid #f5f5f5;
-        padding: 0rem 0.5rem;
+        padding: 0.3rem 0.5rem;
         display: flex;
+        align-items: center;
         gap: 1rem;
         border-radius: 100px;
+
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            padding: 0 0.4rem;
+
+            img {
+                display: block;
+                height: 1.4rem;
+                width: auto;
+            }
+        }
     }
 
     nav a {
@@ -70,6 +83,7 @@ main {
         img {
             width: min(20rem, 65%);
             height: auto;
+            border-radius: 1rem;
             /* opacity: 0.8;
             animation: fadeIn 1s ease-in forwards; */
         }

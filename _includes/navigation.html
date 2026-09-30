@@ -1,4 +1,12 @@
 <nav>
+  <a class="nav-logo" href="{{ '/' | relative_url }}">
+    <img
+      src="{{ '/assets/logos/e11iptic-horizontal.svg' | relative_url }}"
+      width="389"
+      height="110"
+      alt="e11iptic"
+    />
+  </a>
   {% for item in site.data.navigation %}
     <a
       href="{{ item.link | relative_url }}"
